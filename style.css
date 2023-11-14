@@ -34,3 +34,35 @@ nav ul li a:hover {
     background-color: black;
     border-radius: 5px;
 }
+header {
+    background-image: url('images/website\ banner.jpg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    padding: 200px 0;
+}
+.searchBox-icon-parent {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.searchBox-icon-parent input {
+    width: 500px;
+    height: 40px;
+    font-size: 20px;
+    padding: 5px 20px;
+    border-radius: 5px;
+}
+.searchBox-icon-parent i {
+    background-color: green;
+    color: red;
+    font-size: 25px;
+    height: 40px;
+    width: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: -10px;
+}
