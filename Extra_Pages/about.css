@@ -1,0 +1,77 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+nav {
+    background-color: #1A1244;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 200px;
+    border-bottom: 4px solid #401E63;
+    position: sticky;
+    top: 0;
+}
+nav div {
+    color: white;
+    font-size: 20px;
+}
+nav ul {
+    display: flex;
+}
+nav ul li {
+    list-style-type: none;
+    margin: 10px 5px;
+}
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 10px 20px;
+    transition: 0.5s;
+}
+nav ul li a:hover {
+    color: red;
+    background-color: black;
+    border-radius: 5px;
+}
+
+/* About Page Code Start  */
+
+#about-section {
+    width: 850px;
+    margin: 70px auto;
+    border: 2px solid red;
+    box-shadow: 10px 10px 5px grey;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+}
+.about-text-div h2 {
+    font-size: 80px;
+    color: #1d42b3;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+.about-text-div p {
+    color: #1d42b3;
+    font-weight: bold;
+}
+.about-text-div a {
+    text-decoration: none;
+    background-color:#1d42b3;
+    color: white;
+    padding: 10px 25px;
+    border-radius: 5px;
+    display: inline-block;
+    margin-top: 50px;
+}
+.about-img-div {
+    width: 500px;
+}
+.about-img-div img {
+    width: 100%;
+}
