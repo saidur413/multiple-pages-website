@@ -1,0 +1,86 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+nav {
+    background-color: #1A1244;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 200px;
+    border-bottom: 4px solid #401E63;
+    position: sticky;
+    top: 0;
+}
+nav div {
+    color: white;
+    font-size: 20px;
+}
+nav ul {
+    display: flex;
+}
+nav ul li {
+    list-style-type: none;
+    margin: 10px 5px;
+}
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 10px 20px;
+    transition: 0.5s;
+}
+nav ul li a:hover {
+    color: red;
+    background-color: black;
+    border-radius: 5px;
+}
+
+/* Form Code Start  */
+
+form {
+    width: 800px;
+    margin: 80px auto;
+    background-color: lightpink;
+    padding: 40px 0;
+    box-shadow: 10px 10px 10px 10px gray;
+}
+form h2 {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+.name-email-parent input {
+    display: block;
+    margin: 20px auto;
+    width: 400px;
+    border: none;
+    border-radius: 30px;
+    padding: 5px 20px;
+    font-size: 17px;
+    height: 30px;
+}
+textarea {
+    display: block;
+    margin: 30px auto;
+    width: 400px;
+    border: none;
+    border-radius: 20px;
+    padding: 10px 20px;
+    font-size: 17px;
+}
+.submit-btn {
+    background: linear-gradient(to right, blue, blueviolet, aqua);
+    display: block;
+    margin: auto;
+    width: 400px;
+    border: none;
+    border-radius: 30px;
+    padding: 10px 20px;
+    font-size: 20px;
+    height: 50px;
+    cursor: pointer;
+    text-transform: uppercase;
+    color: white;
+}
